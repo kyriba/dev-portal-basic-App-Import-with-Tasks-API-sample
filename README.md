@@ -33,5 +33,5 @@ git clone https://github.com/kyriba/dev-portal-basic-App-Import-with-Tasks-API-s
 
 > ⚠️  _Please notice that Python is script language and code will be executed row by row or in the order you will run the cells._
 
-7. Find the generated token under "Connect" cell and the sample result in the next one. The "Import Third party" cell will either return an existing Third party, in case the provided code was duplicated, or visualize the newly imported entity, if everything was done correctly.
+7. Find the generated token under "Connect" cell and the sample result in the next one. The "Import Third party" cell will either return an existing Third party, in case the provided code already exists, or visualize the newly imported entity, if everything was done correctly.
 
