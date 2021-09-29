@@ -1,4 +1,4 @@
-# basic-App-Export-with-Tasks-API-sample
+# dev-portal-basic-App-Import-with-Tasks-API-sample
 
 
 
@@ -16,10 +16,10 @@ Opening .ipynb files requires:
 1.  Copy the repository link, open Command Prompt, go to the location where file will be copied and execute git clone command:
 
 ```shell
-git clone https://github.com/Hercain/basic-App-Export-with-Tasks-API-sample.git
+git clone https://github.com/kyriba/dev-portal-basic-App-Import-with-Tasks-API-sample.git
 ```
 
-2. Import Basic_App_Export_with_Tasks_API.ipynb file into your Google Drive.
+2. Import Basic_App_Import_with_Tasks_API.ipynb file into your Google Drive.
 
 3. Open config.csv file and input your client credentials by replacing the highlighted items with your client_id and client_secret, separated by the coma. Config file should look like this:
 
@@ -33,5 +33,5 @@ git clone https://github.com/Hercain/basic-App-Export-with-Tasks-API-sample.git
 
 > ⚠️  _Please notice that Python is script language and code will be executed row by row or in the order you will run the cells._
 
-7. Find the generated token under "Connect" cell and the sample result in the next one. The "Launch Process Template report and show retrieved results" cell visualizes the launched report, based on the chosen Process Template, with customizable amount of rows displayed in CSV table.
+7. Find the generated token under "Connect" cell and the sample result in the next one. The "Import Third party" cell will either return an existing Third party, in case the provided code was duplicated, or visualize the newly imported entity, if everything was done correctly.
 
